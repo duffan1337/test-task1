@@ -1,0 +1,84 @@
+.body {
+  height: 900px;
+  background-color: #121520;
+}
+.task {
+  margin: 0 auto;
+  width: 300px;
+  height: 600px;
+}
+.task .TextLogin {
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+}
+.task .TextUnderLogin {
+  font-size: 15px;
+  color: rgb(83, 86, 88);
+}
+.task .LoginMailForm {
+  height: 50px;
+  width: 300px;
+  background-color: #0b0d17;
+  border: none;
+  outline: 0;
+  color: aliceblue;
+  font-size: 20px;
+}
+
+.task .LoginPasswordForm {
+  height: 50px;
+  width: 300px;
+  background-color: #0b0d17;
+  border: none;
+  outline: 0;
+  color: aliceblue;
+  font-size: 20px;
+}
+
+.body .icon img {
+  height: 100px;
+  width: 100px;
+  margin-top: 150px;
+}
+
+.captchaBtn {
+  display: block;
+  margin-top: 50px;
+  width: 300px;
+  height: 60px;
+  border-radius: 5px;
+  border: none;
+}
+.captchaBtn:hover {
+  -webkit-transform: translate(10px);
+  transform: translateY(3px);
+  box-shadow: 0 5px 15px rgba(179, 179, 179, 0.6); /* Изменяем тень */
+}
+.nextBtn {
+  display: block;
+  margin-top: 30px;
+  width: 300px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  background-color: #4c82e6;
+  color: white;
+}
+.nextBtn:hover {
+  -webkit-transform: translate(10px);
+  transform: translateY(3px);
+  box-shadow: 0 5px 15px rgba(60, 191, 231, 0.6); /* Изменяем тень */
+}
+.error {
+  color: red;
+}
+
+.mailLoginBlock p {
+  text-align: left;
+  color: white;
+}
+.passwordLoginBlock p {
+  text-align: left;
+  color: white;
+}
